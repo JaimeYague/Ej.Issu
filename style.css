@@ -1,0 +1,76 @@
+body{
+    margin: 30px;
+}
+
+
+header{
+        /* flex: auto; */
+        display: flex;
+        width: auto;
+        margin: 5px;
+        padding: 3px;
+}
+
+.head{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+}
+
+.logo{
+    background-image: url(issuulogo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.signin{
+    width: 300px;
+    background-color: #E91E63;
+}
+
+.container{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.fb{
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.google{
+    border: 2px solid black;
+    margin: 3px;
+}
+form{
+    margin: 5px;
+    background-color: blue;
+
+}
+.containerform {
+    margin: 0 auto;
+    display: flex;
+    background-color: darkcyan;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
